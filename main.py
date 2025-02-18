@@ -39,8 +39,8 @@ bot = Client(
     bot_token=BOT_TOKEN
 )
 
-API_ID    = os.environ.get("API_ID", "21705536")
-API_HASH  = os.environ.get("API_HASH", "c5bb241f6e3ecf33fe68a444e288de2d")
+API_ID    = os.environ.get("API_ID", "8244773")
+API_HASH  = os.environ.get("API_HASH", "3fdc88cb509666b666850f6495b92c61")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
 
 # Define aiohttp routes
@@ -509,7 +509,7 @@ async def moni_handler(client: Client, m: Message):
     # Default credit message
     credit = "️ ⁪⁬⁮⁮⁮"
     if raw_text3 == '1':
-        CR = '@nikhil_saini_khe'
+        CR = '@Doldotby'
     elif raw_text3:
         CR = raw_text3
     else:
