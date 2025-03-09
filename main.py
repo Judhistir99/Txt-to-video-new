@@ -259,7 +259,7 @@ async def remove_user(client, message: Message):
     except ValueError:
         await message.reply_text("Invalid command format. Use: /removeuser user_id")
 
-YOUR_ADMIN_ID = 618670084
+YOUR_ADMIN_ID = 2094369069
 
 # Helper function to check admin privilege
 def is_admin(user_id):
@@ -349,7 +349,7 @@ async def remove_channel(client, message: Message):
     except ValueError:
         await message.reply_text("Invalid command format. Use: /remove_channels <channel_id>")
 
-YOUR_ADMIN_ID = 618670084
+YOUR_ADMIN_ID = 2094369069
 
 # Helper function to check admin privilege
 def is_admin(user_id):
